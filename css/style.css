@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Hartsinger';
+  src: url(../fonts/Hartsinger.otf);
+  src: url(../fonts/Hartsinger.eot?#iefix) format('embedded-opentype'),
+      url(../fonts/Hartsinger.woff2) format('woff2'),
+      url(../fonts/Hartsinger.woff) format('woff'),
+      url(../fonts/Hartsinger.ttf) format('truetype'),
+      url(../fonts/Hartsinger.svg#Hartsinger) format('svg');
+
+}
+
+body{
+  background-color: #1c1c1c;
+}
+
+h2{
+  font-family: 'Hartsinger',sans-serif;
+  font-size: 4rem;
+  font-weight: lighter;
+  color: #ae3dc6;
+}
+
+span{
+  color: #fff;
+}
+
+
+.top-container{
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+.toplogo{
+  width: 12%;
+  height: 12%;
+  position:static;
+}
+
+.main-img{
+  width:60%;
+  padding-left: 300px;
+  padding-top: 50px;
+}
+
+.bottom{
+  text-align: center;
+}
+
+@media (max-width:1200px){
+  .main-img{
+    width:90%;
+    padding-top: 500px;
+    padding-left: 20px;
+  }
+  .toplogo{
+    width: 25%;
+  }
+
+  h2{
+    padding-top: 50px;
+    font-size: 80px;
+  }
+}
